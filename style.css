@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: lightcyan;
+    font-family: cursive;
+}
+.container{
+    width:500px;
+    text-align: center;
+    position: relative;
+}
+
+.counter{
+    font-size: 45px;
+}
+.loading-bar-back{
+    position: absolute;
+    height: 10px;
+    background-color: lightcyan;
+    width:100%;
+    border-radius: 10px;
+    border:none;
+}
+.loading-bar-front{
+    position: absolute;
+    height: 10px;
+    background-color: orange;
+    width:0%;
+    border:none;
+    border-radius: 10px;
+}
